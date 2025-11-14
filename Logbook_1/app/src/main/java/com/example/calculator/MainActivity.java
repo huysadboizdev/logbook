@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private String getResult(String data) {
         try {
             Context context = Context.enter();
-            context.setOptimizationLevel(-1); // cần cho Android (tránh crash do JIT)
+            context.setOptimizationLevel(-1);
             Scriptable scriptable = context.initStandardObjects();
             String finalResult = context.evaluateString(scriptable, data, "Javascript", 1, null).toString();
 

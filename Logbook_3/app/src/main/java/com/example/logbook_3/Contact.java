@@ -9,5 +9,5 @@ public class Contact {
     public String name;
     public String dob;
     public String email;
-    public int avatarResId; // ID hình trong drawable
+    public int avatarResId;
 }

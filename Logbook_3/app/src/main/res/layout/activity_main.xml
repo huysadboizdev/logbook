@@ -31,6 +31,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <Button
+        android:id="@+id/btnSelectImage"
+        android:text="@string/btn_select_image"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/ivSelectedImage"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_default_avatar"
+        android:contentDescription="@string/desc_selected_image"
+        android:scaleType="centerCrop" />
+
     <Spinner
         android:id="@+id/spinnerAvatar"
         android:layout_width="match_parent"
